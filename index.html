@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+</head>
+<body>
+    <div class="panel">
+        <input id="input" type="number" min="2" max="100">
+        <button id="create">Create Sketch</button>
+    </div>
+    <div id="app">
+    </div>
+    <script>
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = 'style.css?v=' + Date.now();
+        document.head.appendChild(link);
+
+        const script = document.createElement('script');
+        script.src = 'script.js?v=' + Date.now();
+        document.body.appendChild(script);
+    </script>
+</body>
+</html>

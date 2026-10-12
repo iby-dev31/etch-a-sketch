@@ -1,0 +1,67 @@
+body {
+    margin: 10px;
+    background: #3f3f3f;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input {
+    height: 30px;
+    border: 2px solid #fff;
+    background: #3f3f3f;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 15px;
+    -moz-appearance:textfield;
+    text-align: center;
+    margin: 10px;
+}
+
+button {
+    height: 30px;
+    background: #fff;
+    border: none;
+    padding: 5px 30px;
+    border-radius: 15px;
+    transition: 0.3s;
+    margin: 10px;
+}
+
+button:hover {
+    background: #9690ff;
+}
+
+button:active {
+    background: blue;
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+}
+
+#app {
+    background: #000;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    box-sizing: content-box;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+#app div {
+    background: #000;
+}
